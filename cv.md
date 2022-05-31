@@ -33,3 +33,44 @@ I enrolled in courses with the aim of gaining knowledge with which I can subsequ
 - HTML5
 - CSS
 - Git/GitHub
+
+# CSS code example:
+
+.header{
+
+
+	margin: 25px 0 0 0; 
+
+
+	background: linear-gradient(360deg, rgba(71, 19, 96, 0) -53.9%, rgba(79, 0, 116, 0.53) 39.72%, rgba(34, 6, 48, 0) 164.39%);
+
+
+	position: relative;
+
+
+	z-index: 2;
+
+
+}
+
+
+.flex__container__header{
+
+
+	display: flex;
+
+
+	justify-content: space-between;
+
+	}
+
+# Education:
+
+- Web development tutorial videos
+- Some simple layouts using html and css
+
+# Languages
+
+- Russian
+- Ukrainian (I understand the language, but I don't speak it myself)
+- English is very weak (try to learn)
