@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Grekalimbus.github.io/rsschool-cv/cv
