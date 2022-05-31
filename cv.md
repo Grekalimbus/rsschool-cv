@@ -16,3 +16,20 @@ Recently, I constantly want to study in this area, as it has begun to arouse gre
 
 
 I enrolled in courses with the aim of gaining knowledge with which I can subsequently get a job and further development in this field.
+
+
+### My strengths:
+
+- Purposefulness
+- Willingness to adapt
+- Teamwork
+
+
+>Go to your goal...
+
+# Skils:
+
+- Figma
+- HTML5
+- CSS
+- Git/GitHub
