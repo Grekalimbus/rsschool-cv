@@ -1,0 +1,487 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+ }
+ *,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+ :focus,:active{outline: none;}
+ a:focus,a:active{outline: none;}
+ nav,footer,header,aside{display: block;}
+ html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+ }
+ input,button,textarea{font-family:inherit;}
+ input::-ms-clear{display: none;}
+ button{cursor: pointer;}
+ button::-moz-focus-inner {padding:0;border:0;}
+ a, a:visited{text-decoration: none;}
+ a:hover{text-decoration: none;}
+ ul li{list-style: none;}
+ img{vertical-align: top;}
+ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+ /*--------------------*/
+
+ /*        ШРИФТЫ
+font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+*/
+body{
+	font-family: 'Anton', sans-serif;
+}
+.wrapper{
+	min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90.08deg, rgba(0, 0, 0, 0.91) -3.12%, #47063D 18.35%, #47063D 81.66%, rgba(0, 0, 0, 0.91) 108.61%);
+}
+.container{
+	width: 1250px;
+	margin: 0 auto;
+}
+/* ШАПКА */
+.header{
+	padding: 30px 0 30px 0;
+	background: linear-gradient(179.18deg, #320021 0.71%, rgba(50, 0, 33, 0) 208.69%);
+	max-height: 110px;
+	min-height: 100%;
+	
+}
+.header_nav{
+	display: flex;
+	justify-content: space-between;
+	transition: color ;
+	align-items: flex-end;
+}
+.link_nav{	
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 0.11em;
+	color: #AF098B;
+	transition: all 0.5s ease-out;
+	border-radius: 45px;
+	
+	
+	
+}
+.link_nav:hover{
+	color: #e76f00;
+	padding: 2px 10px;
+}
+
+
+/* ШАПКА */
+
+/* СЕКЦИЯ1 */
+
+.section{
+	background: linear-gradient(104.02deg, #320021 59.93%, rgba(50, 0, 33, 0) 99.92%);
+	padding: 40px 0;
+}
+.info_section{
+	display: flex;
+}
+
+.print_text_too{
+	margin: 60px 0 0 70px;
+}
+.text_web{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 15px;
+	letter-spacing: 0.26em;
+	color: #AF098B;
+	margin: 65px 0 0 182px;
+}
+
+/* СЕКЦИЯ1 */
+
+/* СЕКЦИЯ 2 МНОГО КОНТЕНТА */
+
+.section_too{}
+
+.flex_container_more_content{
+	display: flex;
+}
+/* content left */
+.left_content{}
+
+/* contacts menu */
+
+.wrapper_contacts_border{
+	border-left: 5px solid #9A0A7A;
+	border-right: 5px solid #9A0A7A;
+	width: 393.98px;
+	padding: 0 30px;
+	margin-top: 55px;
+	min-height: height: 370px;
+	
+}
+.wrapper_contacts{}
+.tittle_contacts{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.11em;
+	color: #FFFFFF;
+	background-color: #9A0A7A;
+	text-align: center;
+	padding: 15px 0;
+	border-radius: 15px;
+}
+
+.content_link{
+	margin-top: 25px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.11em;
+	color: #FFFFFF;
+}
+
+.text_link_bottom{
+	padding: 0px 0 7px 0;
+	border-bottom: 1px solid #F101BC;
+	margin: 0 0 25px 0;
+}
+.text_link{
+	
+}
+.link_contacts{
+	display: block;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.11em;
+	color: #FFFFFF;
+	margin: 5px 0 0 0;
+	transition: all 0.5s ease-out;
+}
+.link_contacts:hover{
+	color: #e76f00;
+	padding: 2px 10px;
+}
+
+/* contacts menu */
+
+/* personal qualities */
+
+._wrapper_personal_qualities{
+	width: 393px;
+	margin-top: 65px;
+}
+
+.ikon_and_title{
+	display: flex;
+	align-items: flex-end;
+	border-bottom: 5px solid #9A0A7A;
+	width: 100%;
+	padding: 0px 0 10px 0;
+}
+
+.tittle_person{
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 39px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+	margin-left: 15px;
+	
+}
+
+.menu_personal_qualities{
+	font-size: 28px;
+	line-height: 27px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+	margin: 25px 0 0 0;
+}
+.menu_personal_qualities li{
+	border-bottom: 1px solid #9A0A7A;
+	padding-bottom: 25px;
+	margin-top: 15px;
+}
+
+/* personal qualities */
+
+/* about me */
+
+.content_about_me{
+	width: 393px;
+	margin-top: 59px;
+	margin: 30px 0 30px 0;
+}
+.about_me{
+	font-size: 20px;
+	line-height: 202.52%;
+	letter-spacing: 0.005em;
+	color: #FFFFFF;
+
+}
+.text_about_me{
+	font-size: 14px;
+	line-height: 101.02%;
+	letter-spacing: 0.005em;
+	color: rgba(202, 0, 168, 0.723);
+	text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.45);
+}
+.text_about_me p{
+	margin-bottom: 25px;
+}
+.text_about_me p:last-child{
+	margin: 0;
+}
+
+/* about me */
+/* content left */
+
+/* content right */
+
+.right_content{}
+
+/* SKILS BLOCK */
+
+.wrapper_skills_block{
+	width: 508px;
+	margin: 57px 0 0 175px;
+	
+}
+.skills_background{
+	font-size: 48px;
+	line-height: 58px;
+	letter-spacing: 0.555em;
+	color: #FFFFFF;
+	background: #9A0A7A;
+border-radius: 22px;
+text-align: center;
+width: 381px;
+margin: 0 0 0 60px;
+}
+
+.wrapper_info_skils{
+	margin-top: 70px;
+}
+
+.text_border_right_one{
+	display: flex;
+}
+.polosa_one{
+	width: 404px;
+	height: 18px;
+	background: linear-gradient(90deg, #FD5B16 80.2%, #000000 92.74%);
+	margin: 5px 0 0 20px;
+}
+.text_border_right_too{
+	margin: 25px 0 0 0;
+	display: flex;
+}
+.polosa_too{
+	width: 404px;
+	height: 18px;
+	background: linear-gradient(90deg, #FD5B16 69.93%, #000000 85.75%);
+	margin: 5px 0 0 35px;
+}
+.text_border_right_three{
+	margin: 25px 0 0 0;
+	display: flex;
+}
+.polosa_three{
+	width: 404px;
+	height: 18px;
+	background: linear-gradient(90deg, #FD5B16 16.96%, #000000 37.32%);
+	margin: 5px 0 0 35px;
+}
+.text_border_right_foo{
+	margin: 25px 0 0 0;
+	display: flex;
+}
+.polosa_foo{
+	width: 404px;
+	height: 18px;
+	background: linear-gradient(90deg, #FD5B16 61.01%, #000000 79.09%);
+	margin: 5px 0 0 25px;
+}
+.text_border_right_five{
+	margin: 25px 0 0 0;
+	display: flex;
+}
+.polosa_five{
+	width: 358px;
+	height: 18px;
+	background: linear-gradient(90deg, #FD5B16 45.28%, #000000 68.36%);
+	margin: 5px 0 0 30px;
+}
+.text_border_right_six{
+	margin: 25px 0 0 0;
+	display: flex;
+}
+.polosa_six{
+	width: 356px;
+	height: 18px;
+	background: linear-gradient(90deg, #FD5B16 -85.84%, #000000 20.63%);
+	margin: 5px 0 0 -23px;
+}
+
+.text_repeat{
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.005em;
+	color: #FFFFFF;
+}
+.text_repeat_js{
+	width: 154px;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.005em;
+	color: #FFFFFF;
+}
+
+/* SKILS BLOCK */
+
+/* languages_experience */
+
+.wrapper_languages_experience{
+	width: 632px;
+	margin-left: 180px;
+	margin-top: 35px;
+}
+.tittle_languages_experience{
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.005em;
+	color: #FFFFFF;
+	margin-left: 100px;
+}
+
+.too_elemets_languages{
+	margin-top: 50px;
+	display: flex;
+}
+
+.russian_languages{
+	display: flex;
+}
+.russian{
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.005em;
+	color: #FFFFFF;
+}
+.line_russian{
+	background-color: #FD5B16;
+	width: 136px;
+	height: 13px;
+	margin: 7px 0 0 15px;
+}
+
+.english_language{
+	display: flex;
+	margin: 0 0 0 40px;
+}
+.english{
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.005em;
+	color: #FFFFFF;
+}
+.line_english{
+	background: linear-gradient(90deg, #FD5B16 23.16%, #000000 43.93%);
+	width: 136px;
+	height: 13px;
+	margin: 7px 0 0 15px;
+}
+
+.experiance{
+	margin-top: 35px;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.005em;
+	color: #FFFFFF;
+}
+.info_experiance{
+	font-size: 20px;
+	line-height: 41px;
+	letter-spacing: 0.005em;
+	color: #CC4900;
+	margin-top: 27px;
+}
+
+
+/* languages_experience */
+
+/* WRAPPER HOBBIES */
+
+.wrapper_hobbies{
+	margin-left: 180px;
+	margin-top: 25px;
+	padding: 0 0 30px 0;
+}
+.tittle_hobbies{
+	font-size: 36px;
+	line-height: 202.52%;
+	letter-spacing: 0.005em;
+	color: #FFFFFF;
+}
+.list_hobbies{
+	font-size: 20px;
+	line-height: 202.52%;
+	letter-spacing: 0.005em;
+	color: #FFFFFF;
+}
+.list_hobbies li::before{
+	content: url(../img/img_section/ikonbottom.png);
+	padding: 0 15px 0 0;
+}
+
+/* WRAPPER HOBBIES */
+
+/* content right */
+
+/* СЕКЦИЯ 2 МНОГО КОНТЕНТА */
+
+/* FOOTER */
+
+.footer{
+	background: linear-gradient(177.66deg, rgba(47, 17, 4, 0.77) 13.72%, #EC4700 120.73%);
+	padding: 25px 0;
+}
+
+.flex_box_footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.git_hub_link{
+	font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+.flex_box_footer img{
+	
+}
+.data_footer{
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+
+/* FOOTER */
